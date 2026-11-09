@@ -37,7 +37,7 @@ h2 {
   margin-bottom: 30px;
   text-align: center;
   font-weight: normal;
-  color: #777;
+  color: $gray-light;
 }
 p {
   font-size: 1.1em;
@@ -65,23 +65,19 @@ footer {
   margin-top: 45px;
   padding-top: 5px;
   border-top: 1px solid $gray-medium-light;
-  color: $gray-light;  
-  
+  color: $gray-light;
   a {
     color: $gray;
     &:hover {
       color: $gray-darker;
     }
   }
-  
   small {
     float: left;
   }
-  
   ul {
     float: right;
     list-style: none;
-    
     li {
       float: left;
       margin-left: 15px;
