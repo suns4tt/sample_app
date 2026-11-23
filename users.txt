@@ -1,0 +1,2 @@
+User.create(name: "leon", email: "leon123@mail.com", password: "123456", password_confirmation: "123456")
+User.create(name: "mayot", email: "mayotovirus@mail.com", password: "123456", password_confirmation: "123456")
